@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full p-4 sm:p-4 md:pt-14 h-14 md:h-16 backdrop-blur-md text-white z-50">
+    <header className="fixed top-0 left-0 w-full pl-4 pr-4 pt-10 pb-10 sm:p-4 md:pt-14 md:pb-14 h-14 md:h-16 backdrop-blur-md text-white z-50">
       <div className="relative w-full h-full max-w-screen-xl mx-auto sm:px-1 md:px-2 flex items-center">
         {/* Logo à gauche */}
         <motion.img
