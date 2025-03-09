@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Menu from './Menu';
+import LOGO from './../assets/LOGO.png'; // Import du logo
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,11 +18,21 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full p-8 md:p-19 h-14 md:h-16 backdrop-blur-md text-white z-50">
-      <div className="relative w-full h-full max-w-screen-xl mx-auto px-4">
+    <header className="fixed top-0 left-0 w-full p-4 sm:p-4 md:pt-14 h-14 md:h-16 backdrop-blur-md text-white z-50">
+      <div className="relative w-full h-full max-w-screen-xl mx-auto sm:px-1 md:px-2 flex items-center">
+        {/* Logo à gauche */}
+        <motion.img
+          src={LOGO}
+          alt="Logo"
+          className="h-8 sm:h-8 md:h-10 mr-2 sm:mr-3" // Ajuster la taille et la marge pour les petits écrans
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        />
+
         {/* Div pour le titre */}
         <motion.div
-          className="absolute top-1/2 left-0 -translate-y-1/2 text-3xl md:text-5xl font-bold"
+          className="text-3xl sm:text-3xl md:text-5xl font-bold"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
