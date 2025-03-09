@@ -35,11 +35,11 @@ const Title = ({ text }) => {
 
   return (
     <div ref={ref} className="max-h-20 flex justify-center items-center h-screen mb-20">
-      <h2 className="text-white text-5xl md:text-7xl lg:text-8xl font-bold mb-4 text-center">
+      <h2 className="text-white text-4xl md:text-5xl lg:text-5xl font-bold mb-4 text-center">
         {displayedText}
         {isInView && (
           <span
-            className={`inline-block w-0.5 h-12 md:h-18 bg-white ml-2 translate-y-1 transition-opacity duration-200 ${cursorVisible ? 'opacity-100' : 'opacity-0'}`}
+            className={`inline-block w-0.5 h-9 md:h-11 bg-white ml-2 translate-y-1 transition-opacity duration-200 ${cursorVisible ? 'opacity-100' : 'opacity-0'}`}
           ></span>
         )}
       </h2>
