@@ -5,7 +5,7 @@ import Title from './Title';
 
 function Home() {
   return (
-    <section id="Home" className="overflow-hidden pt-2 min-h-screen flex items-center justify-center bg-zinc-800 text-white">
+    <section id="Home" className="overflow-hidden pt-24 lg:pt-4 min-h-screen flex items-center justify-center bg-zinc-800 text-white">
       {/* Conteneur principal */}
       <motion.div
         className="text-center md:mt-40"
