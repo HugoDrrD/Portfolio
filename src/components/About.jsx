@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Title from './Title';
+import Moi from './../assets/Moi.jpg'; // Importation de l'image
 
 function About() {
   return (
@@ -21,7 +22,7 @@ function About() {
             viewport={{ once: true }}
           >
             <img
-              src="https://pbs.twimg.com/media/GC9vnisXoAAB5ep?format=jpg&name=4096x4096" // Remplace avec ton image
+              src = {Moi} // Utilisation de l'import pour l'image
               alt="Photo de profil"
               className="w-full h-auto max-h-[500px] object-contain rounded-lg cursor-pointer" // Les propriétés max-w et max-h permettent à l'image de s'adapter tout en conservant ses proportions
             />
