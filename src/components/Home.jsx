@@ -27,7 +27,7 @@ function Home() {
             <h3 className="text-2xl ml-4">Expertise technique</h3>
           </div>
           <p className="text-zinc-600 lg:max-w-4/6 mx-auto md:text-xl mb-8 px-4">
-            Salut, je m'appelle Hugo Durand. Passionné par la programmation, j'ai développé une expertise solide dans plusieurs langages comme le C et le Python, ainsi qu'avec des technologies front-end telles que React. Cette maîtrise me permet de résoudre des problèmes techniques complexes et de proposer des solutions adaptées aux besoins des utilisateurs.
+            Passionné par la programmation, j'ai développé une expertise solide dans plusieurs langages comme le C et le Python, ainsi qu'avec des technologies front-end telles que React. Cette maîtrise me permet de résoudre des problèmes techniques complexes et de proposer des solutions adaptées aux besoins des utilisateurs.
           </p>
         </motion.div>
 
