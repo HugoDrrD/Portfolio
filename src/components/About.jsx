@@ -1,16 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Title from './Title';
-import Moi from './../assets/Moi.jpg'; // Importation de l'image
+import Moi from './../assets/Moi.jpg';
 
 function About() {
   return (
     <section id="About" className="flex justify-center items-center min-h-screen bg-zinc-800 px-4 py-20">
       <div className="flex flex-col justify-center items-center w-full max-w-6xl">
-        {/* Titre centré au-dessus de l'image et du texte */}
         <Title text="À propos de moi" />
 
-        {/* Div contenant l'image et le texte */}
         <div className="flex flex-col lg:flex-row items-center justify-center w-full space-x-0 lg:space-x-12">
           {/* Image */}
           <motion.div
@@ -22,9 +20,9 @@ function About() {
             viewport={{ once: true }}
           >
             <img
-              src = {Moi} // Utilisation de l'import pour l'image
+              src={Moi}
               alt="Photo de profil"
-              className="w-full h-auto max-h-[500px] object-contain rounded-lg cursor-pointer" // Les propriétés max-w et max-h permettent à l'image de s'adapter tout en conservant ses proportions
+              className="w-full h-auto max-h-[500px] object-contain rounded-lg cursor-pointer"
             />
           </motion.div>
 
@@ -37,7 +35,7 @@ function About() {
             viewport={{ once: true }}
           >
             <p className="text-zinc-500 text-lg mb-4">
-              Depuis mes 12 ans, je suis passionné par l'informatique, notamment à travers le développement de jeux vidéo. Cette passion m'a naturellement guidé vers des études en informatique, où j'ai approfondi mes compétences techniques et exploré la transformation digitale.
+              C’est à travers les jeux vidéo que ma passion pour l’informatique a vu le jour, dès mon adolescence. Fasciné par leur conception, je me suis naturellement tourné vers des études en informatique, avec l’envie de créer des solutions concrètes et utiles.            
             </p>
 
             <motion.p
@@ -47,7 +45,7 @@ function About() {
               transition={{ duration: 1, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              Lors de mes années en prépa, j'ai participé à des projets, dont un particulièrement marquant : le développement d'une application pour la gestion des commandes d'une entreprise de plomberie, où j'ai pu allier développement et gestion de projet.
+              En prépa, j'ai eu l'opportunité de mener plusieurs projets, dont une application de gestion de commandes pour une entreprise de plomberie. Ce projet m’a permis de mettre en pratique mes compétences en développement tout en gérant un besoin réel d’entreprise.
             </motion.p>
 
             <motion.p
@@ -57,7 +55,7 @@ function About() {
               transition={{ duration: 1, delay: 0.4 }}
               viewport={{ once: true }}
             >
-              Je me forme actuellement à <a href="https://fr.wikipedia.org/wiki/React_(JavaScript)" className='text-emerald-500 hover:text-emerald-700'>React</a> pour devenir autonome dans la gestion de projets, en étant capable de gérer à la fois le front-end et le back-end.
+              Aujourd’hui, je développe ce portfolio avec <a href="https://fr.wikipedia.org/wiki/React_(JavaScript)" className="text-emerald-500 hover:text-emerald-700">React</a> et me forme à <a href="https://laravel.com/" className="text-rose-400 hover:text-rose-600">Laravel</a>, afin de maîtriser aussi bien le front-end que le back-end. Mon objectif : être autonome sur toutes les couches d'une application web.
             </motion.p>
 
             <motion.p
@@ -67,7 +65,7 @@ function About() {
               transition={{ duration: 1, delay: 0.6 }}
               viewport={{ once: true }}
             >
-              Ce que j'apprécie dans la gestion de projets, c'est la diversité des défis qu'ils représentent. Chaque projet est unique et me permet de développer des compétences variées, que ce soit sur le plan technique, en gestion, ou en communication.
+              Ce qui me motive au quotidien, c’est la variété des défis techniques et humains que représente chaque projet. J’aime apprendre, résoudre des problèmes concrets et livrer des solutions qui ont un vrai impact.
             </motion.p>
           </motion.div>
         </div>
