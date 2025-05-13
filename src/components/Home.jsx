@@ -27,7 +27,7 @@ function Home() {
             <h3 className="text-2xl ml-4">Expertise technique</h3>
           </div>
           <p className="text-zinc-600 lg:max-w-4/6 mx-auto md:text-xl mb-8 px-4">
-            Passionné par la programmation, j'ai développé une expertise solide dans plusieurs langages comme le C et le Python, ainsi qu'avec des technologies front-end telles que React. Cette maîtrise me permet de résoudre des problèmes techniques complexes et de proposer des solutions adaptées aux besoins des utilisateurs.
+Je suis Hugo Durand, passionné de programmation depuis plusieurs années. Grâce à mes expériences, j’ai acquis une solide maîtrise de langages comme C et Python, ainsi que de technologies front-end comme React. Cette expertise me permet de concevoir des solutions efficaces, adaptées aux besoins concrets des utilisateurs.
           </p>
         </motion.div>
 
@@ -43,7 +43,7 @@ function Home() {
             <h3 className="text-2xl ml-4">Curiosité et innovation</h3>
           </div>
           <p className="text-zinc-600 lg:max-w-4/6 mx-auto md:text-xl mb-8 px-4">
-            Je suis un grand curieux, toujours à la recherche de nouveaux défis techniques. Mon approche proactive m'amène constamment à explorer de nouvelles technologies et à rester informé des dernières innovations. J'aime apprendre et appliquer des concepts pour trouver des solutions créatives aux problèmes complexes.
+ Toujours en quête de nouveaux défis, je me distingue par ma curiosité et mon esprit d’initiative. J’explore en continu de nouvelles technologies et reste à l’affût des dernières tendances. J’aime apprendre, expérimenter, et transformer ces découvertes en solutions créatives face à des problématiques complexes.          
           </p>
         </motion.div>
 
@@ -59,7 +59,7 @@ function Home() {
             <h3 className="text-2xl ml-4">Expérience et projets variés</h3>
           </div>
           <p className="text-zinc-600 lg:max-w-4/6 mx-auto md:text-xl mb-8 px-4">
-            Au cours de mes projets, j'ai eu l'opportunité de travailler sur des applications allant des jeux vidéo aux systèmes de gestion. Ces projets m'ont permis de renforcer mes compétences en programmation, mais aussi d'appliquer des solutions informatiques concrètes pour améliorer l'efficacité des utilisateurs. J'ai l'habitude de travailler sur des problématiques complexes en équipe et de livrer des solutions qui répondent aux attentes des utilisateurs.
+ Mes projets m'ont amené à concevoir aussi bien des jeux vidéo que des systèmes de gestion. Ces expériences ont renforcé mes compétences techniques et m’ont permis d’apporter des solutions concrètes pour optimiser l’efficacité des utilisateurs. Habitué au travail en équipe, je sais m’adapter à des contextes variés et répondre aux exigences fonctionnelles de chaque projet.          
           </p>
         </motion.div>
 
